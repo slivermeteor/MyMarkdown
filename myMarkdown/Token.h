@@ -24,7 +24,6 @@ namespace Markdown
 		virtual CTokenList ProcessSectorElements() { return CTokenList(); }	//  区段元素处理函数
 		virtual void HeaderWrite(std::ostream& Out) const {};		// HTML 头标签写入
 		virtual void TailWrite(std::ostream& Out) const {};			// HTML 闭合标签写入 
-
 	};
 
 	enum ListType
