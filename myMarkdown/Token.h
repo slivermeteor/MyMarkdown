@@ -23,7 +23,7 @@ namespace Markdown
 		virtual void WriteAsHTML(std::ostream& Out) const = 0;		// 纯虚函数 - 每个派生类都必须实现
 		virtual CTokenList ProcessSectorElements() { return CTokenList(); }	//  区段元素处理函数
 		virtual void HeaderWrite(std::ostream& Out) const {};		// HTML 头标签写入
-		virtual void TailWrite(std::ostream& Out) const {};			// HTML 闭合标签写入
+		virtual void TailWrite(std::ostream& Out) const {};			// HTML 闭合标签写入 
 	};
 
 	enum ListType
